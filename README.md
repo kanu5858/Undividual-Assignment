@@ -1,17 +1,20 @@
-# Largest Number in Array 
+# The smallest number
  
-## Student Information - **Name**: Your Name - **Student ID**: Your Student ID - **Course**: Your Course Name 
+## Student Information - **Name**: Boru Golicha Boru - **Student ID**: RMNS-2889/23 - **Course**: DSA
  
 ## Algorithm 
-1. Initialize a variable `largest` with the first element of the 
-array. 
-2. Iterate through the array starting from the second element. 
-3. Compare each element with `largest`. 
-4. If the current element is greater than `largest`, update 
-`largest` with the current element. 
-5. After the loop ends, `largest` will contain the largest 
-number in the array. 
- 
+This C++ program performs the following tasks:
+
+1. start
+2. Input size: Prompt user to enter the list size.
+3. Validate if the input is a valid positive integer.
+4. Input numbers: Prompt user to enter numbers (equal to the size).
+5. Validate if each input is a valid integer.
+6. Find smallest number: Initialize smallest with INT_MAX.
+7. Iterate through the numbers and update smallest if a smaller number is found.
+8. Output result: Print the smallest number found.
+9. End.
+    
 ## How to Run the Code 
 1. Clone the repository to your local machine. 
 2. Open the terminal and navigate to the repository directory. 
@@ -23,7 +26,7 @@ Run the compiled program:
 ./main 
 Output 
 The program will output: 
-The largest number in the array is: 50 
+
  
 Contributing 
 Feel free to contribute to this project by forking the 
