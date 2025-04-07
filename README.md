@@ -20,12 +20,11 @@ This C++ program performs the following tasks:
 2. Open the terminal and navigate to the repository directory. 
 3. Compile the C++ code using: 
    ```bash 
-   g++ main.cpp -o main 
+   g++ PrintSelectedElement.cpp -o main 
  
 Run the compiled program: 
-./main 
-Output 
-The program will output: 
+./PrintSelectedElement 
+
 
  
 
